@@ -13,6 +13,6 @@ def process_ble(data):
     mac = payload[0:6]
     rssi = struct.unpack('b', payload[6:7])[0]
 
-    print "BLE:\tAddr = %s, RSSI = %d" % (to_hex(mac), rssi)
+    print "BLE:\t Addr = %s, RSSI = %d" % (to_hex(mac), rssi)
   else:
     print "Unknown", to_hex(data)

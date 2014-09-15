@@ -1,5 +1,4 @@
 import serial
-import struct
 import time
 from irtemp import process_temp
 from humidity import process_hum
@@ -17,7 +16,7 @@ class FrameType:
   GYRO = 0x06
   BLE_AD = 0x10
   
-def read_loop(tty, process_frame, baud = 19200):
+def read_loop(tty, process_frame, baud = 115200):
   # Non-blocking mode
   ser = serial.Serial(tty, baud, timeout=0)
 
@@ -54,7 +53,6 @@ def process_frame(frame):
   data = frame[1:]
   if type == FrameType.TEMP:
     process_temp(data)
-    pass
   elif type == FrameType.HUM:
     process_hum(data)
     pass
