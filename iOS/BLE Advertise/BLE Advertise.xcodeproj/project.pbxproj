@@ -198,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				ORGANIZATIONNAME = "Building Robotics";
 				TargetAttributes = {
 					49EE574B19C7ED730005BCCC = {
 						SystemCapabilities = {
@@ -456,6 +456,7 @@
 				49EE577A19C7ED730005BCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49EE577B19C7ED730005BCCC /* Build configuration list for PBXNativeTarget "BLE AdvertiseTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				49EE577D19C7ED730005BCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
