@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49EE575019C7ED730005BCCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE574F19C7ED730005BCCC /* Foundation.framework */; };
+		49EE575219C7ED730005BCCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE575119C7ED730005BCCC /* CoreGraphics.framework */; };
+		49EE575419C7ED730005BCCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE575319C7ED730005BCCC /* UIKit.framework */; };
+		49EE575A19C7ED730005BCCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49EE575819C7ED730005BCCC /* InfoPlist.strings */; };
+		49EE575C19C7ED730005BCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE575B19C7ED730005BCCC /* main.m */; };
+		49EE576019C7ED730005BCCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE575F19C7ED730005BCCC /* AppDelegate.m */; };
+		49EE576219C7ED730005BCCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE576119C7ED730005BCCC /* Images.xcassets */; };
+		49EE576919C7ED730005BCCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE576819C7ED730005BCCC /* XCTest.framework */; };
+		49EE576A19C7ED730005BCCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE574F19C7ED730005BCCC /* Foundation.framework */; };
+		49EE576B19C7ED730005BCCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE575319C7ED730005BCCC /* UIKit.framework */; };
+		49EE577319C7ED730005BCCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49EE577119C7ED730005BCCC /* InfoPlist.strings */; };
+		49EE577519C7ED730005BCCC /* BLE_AdvertiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE577419C7ED730005BCCC /* BLE_AdvertiseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49EE576C19C7ED730005BCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EE574419C7ED730005BCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49EE574B19C7ED730005BCCC;
+			remoteInfo = "BLE Advertise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49EE574C19C7ED730005BCCC /* BLE Advertise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE Advertise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EE574F19C7ED730005BCCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49EE575119C7ED730005BCCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49EE575319C7ED730005BCCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49EE575719C7ED730005BCCC /* BLE Advertise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLE Advertise-Info.plist"; sourceTree = "<group>"; };
+		49EE575919C7ED730005BCCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49EE575B19C7ED730005BCCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49EE575D19C7ED730005BCCC /* BLE Advertise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLE Advertise-Prefix.pch"; sourceTree = "<group>"; };
+		49EE575E19C7ED730005BCCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49EE575F19C7ED730005BCCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49EE576119C7ED730005BCCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49EE576719C7ED730005BCCC /* BLE AdvertiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE AdvertiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EE576819C7ED730005BCCC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49EE577019C7ED730005BCCC /* BLE AdvertiseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLE AdvertiseTests-Info.plist"; sourceTree = "<group>"; };
+		49EE577219C7ED730005BCCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49EE577419C7ED730005BCCC /* BLE_AdvertiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE_AdvertiseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49EE574919C7ED730005BCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE575219C7ED730005BCCC /* CoreGraphics.framework in Frameworks */,
+				49EE575419C7ED730005BCCC /* UIKit.framework in Frameworks */,
+				49EE575019C7ED730005BCCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EE576419C7ED730005BCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE576919C7ED730005BCCC /* XCTest.framework in Frameworks */,
+				49EE576B19C7ED730005BCCC /* UIKit.framework in Frameworks */,
+				49EE576A19C7ED730005BCCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49EE574319C7ED730005BCCC = {
+			isa = PBXGroup;
+			children = (
+				49EE575519C7ED730005BCCC /* BLE Advertise */,
+				49EE576E19C7ED730005BCCC /* BLE AdvertiseTests */,
+				49EE574E19C7ED730005BCCC /* Frameworks */,
+				49EE574D19C7ED730005BCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49EE574D19C7ED730005BCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49EE574C19C7ED730005BCCC /* BLE Advertise.app */,
+				49EE576719C7ED730005BCCC /* BLE AdvertiseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49EE574E19C7ED730005BCCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49EE574F19C7ED730005BCCC /* Foundation.framework */,
+				49EE575119C7ED730005BCCC /* CoreGraphics.framework */,
+				49EE575319C7ED730005BCCC /* UIKit.framework */,
+				49EE576819C7ED730005BCCC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49EE575519C7ED730005BCCC /* BLE Advertise */ = {
+			isa = PBXGroup;
+			children = (
+				49EE575E19C7ED730005BCCC /* AppDelegate.h */,
+				49EE575F19C7ED730005BCCC /* AppDelegate.m */,
+				49EE576119C7ED730005BCCC /* Images.xcassets */,
+				49EE575619C7ED730005BCCC /* Supporting Files */,
+			);
+			path = "BLE Advertise";
+			sourceTree = "<group>";
+		};
+		49EE575619C7ED730005BCCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EE575719C7ED730005BCCC /* BLE Advertise-Info.plist */,
+				49EE575819C7ED730005BCCC /* InfoPlist.strings */,
+				49EE575B19C7ED730005BCCC /* main.m */,
+				49EE575D19C7ED730005BCCC /* BLE Advertise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49EE576E19C7ED730005BCCC /* BLE AdvertiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				49EE577419C7ED730005BCCC /* BLE_AdvertiseTests.m */,
+				49EE576F19C7ED730005BCCC /* Supporting Files */,
+			);
+			path = "BLE AdvertiseTests";
+			sourceTree = "<group>";
+		};
+		49EE576F19C7ED730005BCCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EE577019C7ED730005BCCC /* BLE AdvertiseTests-Info.plist */,
+				49EE577119C7ED730005BCCC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49EE574B19C7ED730005BCCC /* BLE Advertise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EE577819C7ED730005BCCC /* Build configuration list for PBXNativeTarget "BLE Advertise" */;
+			buildPhases = (
+				49EE574819C7ED730005BCCC /* Sources */,
+				49EE574919C7ED730005BCCC /* Frameworks */,
+				49EE574A19C7ED730005BCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLE Advertise";
+			productName = "BLE Advertise";
+			productReference = 49EE574C19C7ED730005BCCC /* BLE Advertise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49EE576619C7ED730005BCCC /* BLE AdvertiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EE577B19C7ED730005BCCC /* Build configuration list for PBXNativeTarget "BLE AdvertiseTests" */;
+			buildPhases = (
+				49EE576319C7ED730005BCCC /* Sources */,
+				49EE576419C7ED730005BCCC /* Frameworks */,
+				49EE576519C7ED730005BCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49EE576D19C7ED730005BCCC /* PBXTargetDependency */,
+			);
+			name = "BLE AdvertiseTests";
+			productName = "BLE AdvertiseTests";
+			productReference = 49EE576719C7ED730005BCCC /* BLE AdvertiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49EE574419C7ED730005BCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					49EE576619C7ED730005BCCC = {
+						TestTargetID = 49EE574B19C7ED730005BCCC;
+					};
+				};
+			};
+			buildConfigurationList = 49EE574719C7ED730005BCCC /* Build configuration list for PBXProject "BLE Advertise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49EE574319C7ED730005BCCC;
+			productRefGroup = 49EE574D19C7ED730005BCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49EE574B19C7ED730005BCCC /* BLE Advertise */,
+				49EE576619C7ED730005BCCC /* BLE AdvertiseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49EE574A19C7ED730005BCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE575A19C7ED730005BCCC /* InfoPlist.strings in Resources */,
+				49EE576219C7ED730005BCCC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EE576519C7ED730005BCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE577319C7ED730005BCCC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49EE574819C7ED730005BCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE576019C7ED730005BCCC /* AppDelegate.m in Sources */,
+				49EE575C19C7ED730005BCCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EE576319C7ED730005BCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE577519C7ED730005BCCC /* BLE_AdvertiseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49EE576D19C7ED730005BCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49EE574B19C7ED730005BCCC /* BLE Advertise */;
+			targetProxy = 49EE576C19C7ED730005BCCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49EE575819C7ED730005BCCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EE575919C7ED730005BCCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49EE577119C7ED730005BCCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EE577219C7ED730005BCCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49EE577619C7ED730005BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49EE577719C7ED730005BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49EE577919C7ED730005BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLE Advertise/BLE Advertise-Prefix.pch";
+				INFOPLIST_FILE = "BLE Advertise/BLE Advertise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49EE577A19C7ED730005BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLE Advertise/BLE Advertise-Prefix.pch";
+				INFOPLIST_FILE = "BLE Advertise/BLE Advertise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49EE577C19C7ED730005BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLE Advertise.app/BLE Advertise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLE Advertise/BLE Advertise-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLE AdvertiseTests/BLE AdvertiseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49EE577D19C7ED730005BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLE Advertise.app/BLE Advertise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLE Advertise/BLE Advertise-Prefix.pch";
+				INFOPLIST_FILE = "BLE AdvertiseTests/BLE AdvertiseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EE574719C7ED730005BCCC /* Build configuration list for PBXProject "BLE Advertise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EE577619C7ED730005BCCC /* Debug */,
+				49EE577719C7ED730005BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EE577819C7ED730005BCCC /* Build configuration list for PBXNativeTarget "BLE Advertise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EE577919C7ED730005BCCC /* Debug */,
+				49EE577A19C7ED730005BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49EE577B19C7ED730005BCCC /* Build configuration list for PBXNativeTarget "BLE AdvertiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EE577C19C7ED730005BCCC /* Debug */,
+				49EE577D19C7ED730005BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49EE574419C7ED730005BCCC /* Project object */;
+}
