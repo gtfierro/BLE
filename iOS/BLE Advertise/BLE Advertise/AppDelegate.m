@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "BluetoothBroadcast.h"
+
+@interface AppDelegate ()
+@property BluetoothBroadcast *ble;
+@end
 
 @implementation AppDelegate
 
@@ -16,6 +21,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.ble = [[BluetoothBroadcast alloc] initWithUUID:@"C4D13329-6DF2-47B5-83AC-CD3AB71AA9F8"];
+    
     return YES;
 }
 

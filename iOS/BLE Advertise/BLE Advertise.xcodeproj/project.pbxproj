@@ -19,6 +19,8 @@
 		49EE576B19C7ED730005BCCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE575319C7ED730005BCCC /* UIKit.framework */; };
 		49EE577319C7ED730005BCCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49EE577119C7ED730005BCCC /* InfoPlist.strings */; };
 		49EE577519C7ED730005BCCC /* BLE_AdvertiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE577419C7ED730005BCCC /* BLE_AdvertiseTests.m */; };
+		49EE578019C7EE3A0005BCCC /* BluetoothBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE577F19C7EE3A0005BCCC /* BluetoothBroadcast.m */; };
+		49EE578219C7FC430005BCCC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE578119C7FC430005BCCC /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		49EE577019C7ED730005BCCC /* BLE AdvertiseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLE AdvertiseTests-Info.plist"; sourceTree = "<group>"; };
 		49EE577219C7ED730005BCCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49EE577419C7ED730005BCCC /* BLE_AdvertiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE_AdvertiseTests.m; sourceTree = "<group>"; };
+		49EE577E19C7EE3A0005BCCC /* BluetoothBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothBroadcast.h; sourceTree = "<group>"; };
+		49EE577F19C7EE3A0005BCCC /* BluetoothBroadcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothBroadcast.m; sourceTree = "<group>"; };
+		49EE578119C7FC430005BCCC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EE578219C7FC430005BCCC /* CoreBluetooth.framework in Frameworks */,
 				49EE575219C7ED730005BCCC /* CoreGraphics.framework in Frameworks */,
 				49EE575419C7ED730005BCCC /* UIKit.framework in Frameworks */,
 				49EE575019C7ED730005BCCC /* Foundation.framework in Frameworks */,
@@ -96,6 +102,7 @@
 		49EE574E19C7ED730005BCCC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49EE578119C7FC430005BCCC /* CoreBluetooth.framework */,
 				49EE574F19C7ED730005BCCC /* Foundation.framework */,
 				49EE575119C7ED730005BCCC /* CoreGraphics.framework */,
 				49EE575319C7ED730005BCCC /* UIKit.framework */,
@@ -109,6 +116,8 @@
 			children = (
 				49EE575E19C7ED730005BCCC /* AppDelegate.h */,
 				49EE575F19C7ED730005BCCC /* AppDelegate.m */,
+				49EE577E19C7EE3A0005BCCC /* BluetoothBroadcast.h */,
+				49EE577F19C7EE3A0005BCCC /* BluetoothBroadcast.m */,
 				49EE576119C7ED730005BCCC /* Images.xcassets */,
 				49EE575619C7ED730005BCCC /* Supporting Files */,
 			);
@@ -191,6 +200,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					49EE574B19C7ED730005BCCC = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					49EE576619C7ED730005BCCC = {
 						TestTargetID = 49EE574B19C7ED730005BCCC;
 					};
@@ -239,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EE578019C7EE3A0005BCCC /* BluetoothBroadcast.m in Sources */,
 				49EE576019C7ED730005BCCC /* AppDelegate.m in Sources */,
 				49EE575C19C7ED730005BCCC /* main.m in Sources */,
 			);
